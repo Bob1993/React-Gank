@@ -1,0 +1,28 @@
+input {
+	text-align: center;
+	height: 38px;
+	width: 6.5em;
+	border-width: 1px;
+	font-size: 11px;
+	font-weight: 600;
+	background-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #bbb;
+}
+
+span {
+	color: #888;
+}
+
+#email {
+	width: 190px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+div #subscribe {
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
