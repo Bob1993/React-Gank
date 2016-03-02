@@ -1,0 +1,66 @@
+body {
+	background-image: url(../images/bg.png);
+	border-top-width: 3px;
+	border-top-color: rgb(252, 120, 31);
+	border-top-style: solid;
+}
+
+.title {
+    text-align: center;
+    padding-top: 1em
+}
+
+.title a {
+    font-size: 2.3em;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.35
+}
+
+.title p {
+    font-size: 1.1em;
+    font-weight: 100;
+    color: #333;
+    line-height: 2;
+    margin: 1em;
+}
+
+.login-bar {
+    padding-top: 0.5em;
+    text-align: right;
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.login-bar ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 1em;
+    font-size: 0.8em;
+    font-weight: 200;
+    justify-content: center
+}
+
+.nav-transparent {
+	background-color: transparent;
+	margin-left: -45px;
+	margin-right: -25px;
+}
+
+.header {
+	padding-bottom: 1em;
+}
+
+.app-container {
+	max-width: 960px;
+}
+
+.content-page {
+	margin-top: 25px;
+	background-color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
+	box-shadow: 2px 2px 2px #aaaaaa;
+}
