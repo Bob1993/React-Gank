@@ -1,0 +1,26 @@
+{
+  "name": "GankWeb",
+  "version": "1.0.0",
+  "description": "Describe GankWeb here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build",
+    "clean": "nwb clean",
+    "start": "nwb serve",
+    "test": "nwb test"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "css": "^2.2.1",
+    "jquery": "^2.2.1",
+    "react": "^0.14.7",
+    "react-dom": "0.14.x",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "nwb": "0.7.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
