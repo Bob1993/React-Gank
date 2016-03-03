@@ -1,0 +1,54 @@
+.row {
+	width: 100%;
+}
+.u-full-width {
+	width: 100%;
+}
+
+#category-bundle {
+	width: 30%;
+	height: 80px;
+	float: left;
+}
+
+#url-bundle {
+	width: 70%;
+	height: 80px;
+	float: right;
+}
+
+#desc-bundle {
+	margin-bottom: 40px;
+}
+
+#category{
+	text-align: center;
+	height: 38px;
+	width: 6.5em;
+	border-width: 1px;
+	font-size: 16px;
+	font-weight: 200;
+	background-color: white;
+/*	border-width: 1px;*/
+	border-radius: 5px;
+/*	border-style: solid;
+	border-color: #bbb;*/
+	border: 1px solid #bbb;
+}
+
+#desc {
+	text-align: left;
+}
+
+.post-step h5{
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+.post-title {
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+

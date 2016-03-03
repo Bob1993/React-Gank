@@ -1,6 +1,8 @@
 import React from 'react'
-import Subscribe from './subscribe'
 import Home from './home'
+import Subscribe from './subscribe'
+import Post from './post'
+
 import { Router, Route, IndexRoute, browserHistory, Link } from 'react-router'
 
 class NavigationBar extends React.Component {
@@ -20,12 +22,12 @@ class NavigationBar extends React.Component {
 			    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			    	<form className="navbar-form navbar-left" role="search">
 			        <div className="form-group">
-			          <input type="text" className="form-control" placeholder="Search" />
+			          <input id="search" type="text" className="form-control" placeholder="Search" />
 			        </div>
 			    	</form>
 			      <ul className="nav navbar-nav navbar-right">
     					<li><Link to="/subscribe">订阅到邮箱</Link></li>
-    					<li><Link to="/">提交干货</Link></li>
+    					<li><Link to="/post">提交干货</Link></li>
     					<li><Link to="/profile">RSS订阅</Link></li>
     					<li><Link to="/">历史</Link></li>
     					<li><Link to="/profile">编辑们</Link></li>
@@ -100,6 +102,7 @@ export default React.createClass({//用来写导航，可以理解为index.js
     			<IndexRoute component={Home} />
     			<Route path="subscribe" component={Subscribe} />
     			<Route path="profile" component={Profile} />
+          <Route path="post" component={Post}/>
     		</Route>
     	</Router>
     )

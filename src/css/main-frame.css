@@ -55,12 +55,19 @@ body {
 	max-width: 960px;
 }
 
+#search {
+    width: 190px;
+    text-align: left;
+    padding-left: 10px;
+}
+
 .content-page {
 	margin-top: 25px;
+    margin-bottom: 100px;
 	background-color: white;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	padding-left: 60px;
 	padding-right: 60px;
-	box-shadow: 0 2px 2px #aaaaaa;
+	box-shadow: 0 0 5px 1px #dddddd;
 }
