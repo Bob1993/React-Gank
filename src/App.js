@@ -1,5 +1,6 @@
 import React from 'react'
-import Subscribe from './Subscribe'
+import Subscribe from './subscribe'
+import Home from './home'
 import { Router, Route, IndexRoute, browserHistory, Link } from 'react-router'
 
 class NavigationBar extends React.Component {
@@ -23,12 +24,12 @@ class NavigationBar extends React.Component {
 			        </div>
 			    	</form>
 			      <ul className="nav navbar-nav navbar-right">
-							<li><Link to="/subscribe">订阅到邮箱</Link></li>
-							<li><Link to="/">提交干货</Link></li>
-							<li><Link to="/profile">RSS订阅</Link></li>
-							<li><Link to="/">历史</Link></li>
-							<li><Link to="/profile">编辑们</Link></li>
-							<li><Link to="/profile">妹子们</Link></li>
+    					<li><Link to="/subscribe">订阅到邮箱</Link></li>
+    					<li><Link to="/">提交干货</Link></li>
+    					<li><Link to="/profile">RSS订阅</Link></li>
+    					<li><Link to="/">历史</Link></li>
+    					<li><Link to="/profile">编辑们</Link></li>
+    					<li><Link to="/profile">妹子们</Link></li>
 			      </ul>
 			    </div>
 			  </div>
@@ -48,7 +49,7 @@ class Header extends React.Component {
 					</ul>
 				</div>
 				<h5 className='title'>
-					<a href='http://gank.io'>干货集中营</a>
+					<Link to="/">干货集中营</Link>
 					<p>每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频</p>
 				</h5>
 				<NavigationBar/>
@@ -76,16 +77,6 @@ class Root extends React.Component {
 				<div id="content" className="content-page">
 					{this.props.children}
 				</div>
-			</div>
-		)
-	}
-}
-
-class Home extends React.Component {
-	render () {
-		return (
-			<div>
-				<h1>Home</h1>
 			</div>
 		)
 	}

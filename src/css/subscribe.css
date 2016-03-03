@@ -6,10 +6,11 @@ input {
 	font-size: 11px;
 	font-weight: 600;
 	background-color: white;
-	border-width: 1px;
+/*	border-width: 1px;*/
 	border-radius: 5px;
-	border-style: solid;
-	border-color: #bbb;
+/*	border-style: solid;
+	border-color: #bbb;*/
+	border: 1px solid #bbb;
 }
 
 span {
@@ -22,7 +23,7 @@ span {
 	padding-left: 10px;
 }
 
-div #subscribe {
+form {
 	margin-top: 30px;
 	margin-bottom: 35px;
 }
