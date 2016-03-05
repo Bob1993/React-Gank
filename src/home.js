@@ -298,9 +298,9 @@ export default class Home extends React.Component {
   render () {
     return (
       <div style={{marginTop: -15}}>
-        <div id="header-link" style={{height: 60}}>
-          <a id="before"href="http://www.baidu.com" style={{float: 'left'}}>小李子终于拿到奥斯卡了!</a>
-          <a id="next" href="http://www.baidu.com" style={{float: 'right'}}>小李子终于拿到奥斯卡了! 而且小李子在台上的讲话真的很赞啊！</a>
+        <div id="header-link" style={{display: 'flex'}}>
+          <a id="before"href="http://www.baidu.com" style={{flex: 1}}>小李子终于拿到奥斯卡了!</a>
+          <a id="next" href="http://www.baidu.com" style={{flex: 1, textAlign: 'right'}}>小李子终于拿到奥斯卡了! 而且小李子在台上的讲话真的很赞啊！</a>
         </div>
         <div>
           <h2 style={{fontWeight: 300}}>02月26日:当所有的人生疑问都能得到回答，那些爱过的遗忘的所有的，答案。（见今日视频</h2>
